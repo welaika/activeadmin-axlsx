@@ -1,34 +1,7 @@
 Active Admin Axlsx: Office Open XML Spreadsheet Export for Active Admin
 ====================================
 
-If you are using this for commercial purposes, or just want to show your
-appreciation for the gem, please don't hesitate to make a donation.
-
-[![Click here to lend your support to: axlsx and make a donation at www.pledgie.com !](http://www.pledgie.com/campaigns/17814.png?skin_name=chrome)](http://www.pledgie.com/campaigns/17814)
-
-**IRC**:[irc.freenode.net / #axlsx](irc://irc.freenode.net/axlsx)
-
-**Git**:[http://github.com/randym/activeadmin-axlsx](http://github.com/randym/activeadmin-axlsx)
-
-**Twitter**: [https://twitter.com/#!/morgan_randy](https://twitter.com/#!/morgan_randy)
-
-**Google Group**: [https://groups.google.com/forum/?fromgroups#!forum/axlsx](https://groups.google.com/forum/?fromgroups#!forum/axlsx)
-
-**Author**:  Randy Morgan
-
-**Copyright**:    2012 ~ 2013
-
-**License**: MIT License
-
-**Latest Version**: 2.1.2
-
-**Ruby Version**: 1.9.2, 1.9.3, 2.0.0
-
-**JRuby Version**: 1.9 mode
-
-**Rubinius Version**: rubinius 2.0.0dev * lower versions may run, this gem always tests against head.
-
-**Release Date**: 2013.06.02
+This is a fork of the original [activeadmin-axlsx](https://github.com/randym/activeadmin-axlsx)
 
 Synopsis
 --------
@@ -38,7 +11,7 @@ resources. It lets you harness the full power of Axlsx when you want to
 but for the most part just stays out of your way and adds a link next to
 the csv download for xlsx (Excel/numbers/Libre Office/Google Docs)
 
-![Screen 1](https://github.com/randym/activeadmin-axlsx/raw/master/screen_capture.png)
+![Screen 1](https://github.com/welaika/activeadmin-axlsx/raw/master/screen_capture.png)
 
 Usage example:
 Simply add the following to your Gemfile and you are good to go.
@@ -163,6 +136,9 @@ bundle exec rake setup
 bundle exec rake
 ```
 # Changelog
+
+**2017.06.20**
+  - Forked and upgraded gem to work with the last ActiveAdmin, Rails 5.1.x, RubyZip
 
 **2013.10.12**
   - Upgraded to most recent version of Axlsx. This introduces some non-backwards compatible
